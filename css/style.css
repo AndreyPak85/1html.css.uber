@@ -212,6 +212,22 @@ html {
 }
 
 /* line 170, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+.white-label {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* line 174, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+.title-white {
+  color: #ffffff;
+}
+
+/* line 177, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+.subtitle-white {
+  color: #ffffff;
+}
+
+/* line 180, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .work-rowcontainer {
   margin-top: 40px;
   display: flex;
@@ -219,7 +235,7 @@ html {
   align-items: center;
 }
 
-/* line 176, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 186, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .work-round {
   width: 113px;
   height: 113px;
@@ -231,7 +247,7 @@ html {
   margin: 0 auto;
 }
 
-/* line 186, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 196, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .work-item {
   text-align: justify;
   width: 341px;
@@ -240,7 +256,7 @@ html {
   font-weight: 300;
 }
 
-/* line 192, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 202, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .work-item span {
   color: #1eacc7;
   font-family: Roboto;
@@ -248,19 +264,19 @@ html {
   font-weight: 400;
 }
 
-/* line 198, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 208, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .mobile {
   min-height: 864px;
   padding: 48px 0 79px 0;
   background: url("../img/bg-mobile-app.jpg");
 }
 
-/* line 202, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 212, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .mobile .row {
   margin-top: 32px;
 }
 
-/* line 204, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 214, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .mobile-item {
   width: 320px;
   height: 280px;
@@ -270,37 +286,37 @@ html {
   position: relative;
 }
 
-/* line 211, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 221, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .mobile-item-1 {
   background: url("../img/mobile-app-item/1.jpg") center center/cover no-repeat;
 }
 
-/* line 213, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 223, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .mobile-item-2 {
   background: url("../img/mobile-app-item/2.jpg") center center/cover no-repeat;
 }
 
-/* line 215, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 225, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .mobile-item-3 {
   background: url("../img/mobile-app-item/3.jpg") center center/cover no-repeat;
 }
 
-/* line 217, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 227, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .mobile-item-4 {
   background: url("../img/mobile-app-item/4.jpg") center center/cover no-repeat;
 }
 
-/* line 219, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 229, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .mobile-item-5 {
   background: url("../img/mobile-app-item/5.jpg") center center/cover no-repeat;
 }
 
-/* line 221, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 231, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .mobile-item-6 {
   background: url("../img/mobile-app-item/6.jpg") center center/cover no-repeat;
 }
 
-/* line 223, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 233, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .mobile-item-subtitle {
   color: #ffffff;
   font-family: Roboto;
@@ -311,7 +327,7 @@ html {
   text-transform: uppercase;
 }
 
-/* line 231, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+/* line 241, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
 .mobile-item-plus {
   width: 26px;
   height: 26px;
@@ -327,6 +343,46 @@ html {
   left: 50%;
   transform: translatex(-50%);
   cursor: pointer;
+}
+
+/* line 257, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+.choise {
+  position: relative;
+  height: 895px;
+  padding: 53px 0 138px 0;
+  position: relative;
+  background: url("../img/bg-mobile-app.jpg") center center/cover no-repeat;
+}
+
+/* line 263, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+.choise-black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 499px;
+  width: 100%;
+  background-color: #070716;
+  z-index: 1;
+}
+
+/* line 271, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+.choise img {
+  position: relative;
+  display: block;
+  margin: 220px auto 0 auto;
+  z-index: 2;
+}
+
+/* line 276, ../../../../../../Users/AP/Desktop/edu/html.css/Иван.Петреченко/project2/sass/style.sass */
+.choise-descr {
+  color: #222222;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
