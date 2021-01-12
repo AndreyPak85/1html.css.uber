@@ -1,3 +1,6 @@
+$mainColor: #1eacc7
+$secondColor: #ff5656
+
 *
     font-family: 'Roboto', sans-serif
 
@@ -253,6 +256,26 @@ html
             left: 50%
             transform: translatex(-50%)
             cursor: pointer
+            &::before
+                content: ''
+                display: block
+                width: 14px
+                height: 2px
+                background-color: $mainColor
+                transition: 0.3s all
+            &::after
+                content: ''
+                position: absolute
+                left: 50%
+                transform: translateX(-50%)
+                display: block
+                height: 14px
+                width: 2px
+                background-color: $mainColor
+                transition: 0.3s all
+            &:hover
+                &::before, &::after
+                    background-color: $secondColor
 
 .choise
     position: relative
@@ -282,3 +305,44 @@ html
         letter-spacing: normal
         line-height: 24px
         text-align: center
+
+.require
+    padding: 68px 0 84px 0
+    &-block
+        margin: 33px 0
+        &-nmb
+            margin-bottom: 0px
+    &-title
+        margin-top: 33px
+        color: #1ca8c3
+        font-size: 22px
+        font-weight: 400
+    &-list
+        margin-top: 22px
+        list-style-type: none
+        padding-inline-start: 50px
+        font-weight: 300
+        font-size: 17px
+    &-item
+        margin-bottom: 10px
+        position: relative
+        &::before
+            content: ''
+            display: block
+            position: absolute
+            left: -32px
+            top: 3px
+            width: 21px
+            height: 20px
+            background: url('../icons/check-blue.png') center (center / cover) no-repeat
+            color: #1ca8c3
+    &-after
+        color: #1ca8c3
+        font-weight: 400
+    .warning
+        .require-title
+            color: $secondColor
+        .require-list
+            li
+                &::before
+                    background: url('../icons/check-red.png') center (center / cover) no-repeat
